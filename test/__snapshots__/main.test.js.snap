@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Simple rendering Snapshot Testing Snapshot testing onClick Destination 1`] = `
+<button
+  aria-hidden={false}
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="source"
+  source="true"
+  tabIndex={0}
+>
+  Click me
+</button>
+`;
+
+exports[`Simple rendering Snapshot Testing Snapshot testing onClick Source 1`] = `
+Array [
+  <button
+    aria-hidden={false}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="source"
+    source="true"
+    tabIndex={0}
+  >
+    Click me
+  </button>,
+  <div
+    aria-hidden={false}
+    destination="true"
+    role="destination"
+  >
+    <a>
+      Item 1
+    </a>
+    <a>
+      Item 2
+    </a>
+    <a>
+      Item 3
+    </a>
+  </div>,
+]
+`;
+
+exports[`Simple rendering Snapshot Testing Snapshot testing onMount 1`] = `
+<button
+  aria-hidden={false}
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="source"
+  source="true"
+  tabIndex={0}
+>
+  Click me
+</button>
+`;
