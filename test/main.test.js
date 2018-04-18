@@ -1,5 +1,5 @@
 import React from "react";
-import Reclick from "../lib/ReClick";
+import Reclick from "../lib/index";
 import {
   renderIntoDocument,
   cleanup,

@@ -1,6 +1,6 @@
 {
   "name": "reclick",
-  "version": "0.1.1",
+  "version": "0.1.6",
   "description": "Clicking Menu in React made simpler!",
   "main": "./lib/index.js",
   "scripts": {
@@ -12,11 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/PaulRosset/reclick.git"
   },
-  "keywords": [
-    "react",
-    "click",
-    "menu"
-  ],
+  "keywords": ["react", "click", "menu"],
   "author": "Paul Rosset <paulrosset96@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -34,11 +30,11 @@
     "jest": "^22.4.3",
     "prettier": "^1.11.1",
     "react-dom": "^16.3.0",
-    "react-test-renderer": "^16.3.1"
+    "react-test-renderer": "^16.3.1",
+    "react-testing-library": "^2.1.1"
   },
   "dependencies": {
     "prop-types": "^15.6.1",
-    "react": "^16.3.2",
-    "react-testing-library": "^2.1.1"
+    "react": "^16.3.2"
   }
 }
