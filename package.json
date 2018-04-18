@@ -1,6 +1,6 @@
 {
   "name": "reclick",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Clicking Menu in React made simpler!",
   "main": "./lib/index.js",
   "scripts": {
