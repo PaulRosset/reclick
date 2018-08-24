@@ -7,8 +7,8 @@ export default class ReClick extends Component {
     this.state = {
       isOpen: false
     };
-    this.refDestination = null;
-    this.refSource = null;
+    this.refSource = this.props.refsrc || null;
+    this.refDestination = this.props.refdest || null;
     this.props.states ? this.props.states(this.state) : null;
   }
 
@@ -99,5 +99,7 @@ export default class ReClick extends Component {
 }
 
 ReClick.propTypes = {
-  states: PropTypes.func
+  states: PropTypes.func,
+  refsrc: PropTypes.node,
+  refdest: PropTypes.node
 };
